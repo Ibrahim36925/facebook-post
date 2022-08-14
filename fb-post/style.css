@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: my-font;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: font-2;
+    src: url(playball/Playball-Regular.ttf);
+}
+body {
+    background-color: #F0F2F5;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: my-font;
+}
+
+.post {
+    background-color: #ffffff;
+    width: 540px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.post-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    color: rgb(185, 178, 178);
+    border-bottom: 1px solid rgba(232, 232, 232,1);
+}
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(185, 178, 178);
+}
+.post-heading h3{
+    margin: 0;
+    user-select: none;
+}
+.post-image{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+.post-image2{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    width: 100%;
+    display: none;
+}
+.image {
+    width: 100px;
+    clip-path: circle();
+    margin-right: -10px;
+}
+.name{
+    font-family: font-2;
+    color: rgb(185, 178, 178);
+}
+ #textArea1{
+    margin-left: 30px;
+    font-size: 20px;
+    width: 100%; 
+    min-height: 100px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-family: my-font;
+    background-position: center;
+    background-size: cover;
+}
+#textArea1::placeholder {
+    color: rgb(185, 178, 178);
+
+}
+
+#textArea1:focus {
+    border: none;
+    outline: none;
+
+} 
+.post-btn {
+    color: #fff;
+    padding: 10px;
+    width: 95%;
+    background-color: #2374e1;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  margin-left: 12px;
+}
+.main{
+    display:none;
+}
+.line{
+    border-bottom: 1px solid rgba(232, 232, 232,1);
+    width:98%;
+    margin-left: 20px;
+}
+#option {
+    margin-left: 300px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.intro{
+    border-bottom: 1px solid rgba(232, 232, 232,1);
+
+}
+.like{
+    color: rgb(185, 178, 178);
+ 
+}
+
+.comment{
+    color: rgb(185, 178, 178);
+    cursor: pointer;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.comment-box{
+    display: flex;
+    display: none;
+}
+#comment-text {
+    width: 405px;
+    padding: 10px 40px 10px 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    resize: none;
+    font-family: Poppins;
+
+}

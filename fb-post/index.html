@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c42ed3031b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="post1" class="post">
+           <div class="post-heading">
+            <h3>Create post</h3>
+            </div>
+            <div class="intro">
+                <div class="post-image">
+                <img src="img/IMG-20220227-WA0019.jpg" width="50px" height="50px" class="image" alt="">
+                <h4 class="name">Ibrahim Ahmed</h4>
+                </div>
+                <div id="text-area">
+                    <textarea placeholder="What's on your mind, Man?" id="textArea1"></textarea>
+                </div>
+            <button id="post" onclick="postingValue()" class="post-btn">Post</button>
+            <p id="error"></p>
+            </div>
+    </div>
+    
+        </div>
+        <div class="main" id="div1">
+        <div id="post2" class="post">
+            <div id="post3" class="post-head">
+         
+             </div>
+             <div class="intro">
+                 <div id="post5" class="post-image">
+                 <img id="post6" src="img/IMG-20220227-WA0019.jpg" width="50px" height="50px" class="image" alt="">
+                 <h4 id="post7" class="name">Ibrahim Ahmed</h4>
+                 <i onclick="deletePost()" id="option" style="color:  rgb(185, 178, 178);
+                 ;" class="fa-solid fa-trash"></i>
+             </div>
+             </div>
+                 <div class="result">
+                    <p id="para"></p>
+                  <p class="line"></p>
+                 </div>
+                 <div class="main2">
+                    <div class="like">
+                       <i onclick="likeIn()" id="icon" class="fa-solid fa-thumbs-up"></i>Like
+                    </div>
+                    <div onclick="onShare()" class="comment">
+                        <i  class="fa-solid fa-comment"></i>
+                        Comment
+                    </div>
+       
+                </div>
+               
+                <div id="comment-box">
+                    <div id="appear" class="post-image2">
+                    <img  width="50px" height="50px" src="img/IMG-20220227-WA0019.jpg" class="image" alt="">
+                    <input type="text" placeholder="Write a comment..." id="comment-text" />
+                    </div>
+                    <i  id="commented" class="fa-solid fa-share"></i>
+                    </div>
+                    
+                    </div>
+                    </div >
+        </div>
+                </div>
+             </div>
+             
+               
+             
+    
+        </div>
+        
+    
+        
+        
+    
+    <script src="app.js"></script>
+</body>
+</html>
